@@ -5,11 +5,11 @@ permissions:
   actions: write
 
 on:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
-  create:
+  #push:
+    #branches: [main]
+  #pull_request:
+    #branches: [main]
+  #create:
   workflow_dispatch:
 
 env:
